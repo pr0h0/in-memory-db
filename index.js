@@ -23,8 +23,6 @@ class InMemoryDB {
       columns: data?.metadata?.columns || options?.columns || null,
     };
 
-    console.log({ metadata });
-
     if (
       !metadata.tables ||
       !metadata.columns ||
