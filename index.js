@@ -93,7 +93,7 @@ class InMemoryDB {
             ) || [];
         }
       } else {
-        console.log("Invalid query", JSON.stringify(query));
+        console.warn("Invalid query", JSON.stringify(query));
       }
     });
 
