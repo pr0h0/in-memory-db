@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "tables": ["User", "Post", "Comment"],
+    "columns": {
+      "User": ["id", "name", "email", "password"],
+      "Post": ["id", "title", "content", "user_id"],
+      "Comment": ["id", "content", "user_id", "post_id"]
+    }
+  },
+  "User": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "example@aaa.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "example@bbb.com",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "name": "Joe Doe",
+      "email": "example@ccc.com",
+      "password": "password"
+    }
+  ],
+  "Post": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "content": "Post 1 content",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "Post 2 content",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "content": "Post 3 content",
+      "user_id": 3
+    }
+  ],
+  "Comment": [
+    {
+      "id": 1,
+      "content": "Comment 1",
+      "user_id": 1,
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "content": "Comment 2",
+      "user_id": 2,
+      "post_id": 2
+    },
+    {
+      "id": 3,
+      "content": "Comment 3",
+      "user_id": 3,
+      "post_id": 3
+    }
+  ]
+}
